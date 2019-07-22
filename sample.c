@@ -16,20 +16,7 @@ int main(){
     printf("Enter second number (press return to use default val of 10): ");
     scanf("%d", &num2);
 
-     if(!(isdigit(num1))){
-        num1 = NUM1;
-        printf("You aint a good boy/girl! Defaulting the value for number 1");
-     }
-    // if(!(isnum(num2)){
-    //     num2 = NUM2;
-    //     printf("You aint a good boy/girl! Defaulting the value for number 1");
-    // }
-
     int32_t sum = num1 + num2;
 
     printf("The sum of the two numbers is : %d + %d = %d", num1, num2, sum);
-
-//    print
-
-   char cg = getchar();
 }
