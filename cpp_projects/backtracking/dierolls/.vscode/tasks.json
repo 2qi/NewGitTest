@@ -4,14 +4,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build hello world",
+            "label": "echo",
             "type": "shell",
+            //"command": "echo Hello",
             "command": "g++",
             "args": [
                 "-g",
+                //"${file}",
+                //"print_binarydecimal.cpp",
                 "-o",
-                "sample",
-                "sample.c"
+                //"${fileDirname}\\${fileBasenameNoExtension}"
+                "dierolls",
+                "dierolls.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
             ],
             "group": {
                 "kind": "build",
